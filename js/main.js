@@ -80,32 +80,25 @@
 
 
     // Product carousel
-    $(".product-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 1500,
-        margin: 30,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-        ],
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:2
-            },
-            768:{
-                items:3
-            },
-            992:{
-                items:4
-            }
-        }
-    });
+   $(".product-carousel").owlCarousel({
+    autoplay: true,
+    smartSpeed: 1000,
+    margin: 25,
+    dots: false,
+    loop: true,
+    nav: true,
+    navText : [
+        '<i class="fa fa-angle-left"></i>',
+        '<i class="fa fa-angle-right"></i>'
+    ],
+    responsive: {
+        0:{ items:1 },
+        576:{ items:2 },
+        768:{ items:3 },
+        992:{ items:4 }
+    }
+});
+
 
 
     // Portfolio isotope and filter
