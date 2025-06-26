@@ -6273,16 +6273,6 @@ a.close.disabled {
   color: #fff;
   text-align: center;
 }
-body:not(.loaded) .product-carousel,
-body:not(.loaded) .section-title {
-  visibility: hidden;
-}
-
-body.loaded .product-carousel,
-body.loaded .section-title {
-  visibility: visible;
-  transition: all 0.3s ease;
-}
 
 
 @keyframes spinner-border {
